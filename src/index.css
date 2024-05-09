@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+
+.buttonLight {
+    padding: 9px;
+    background: rgb(161, 161, 161);
+    border-radius: 8px;
+}
+
+.buttonDark {
+    padding: 9px;
+    background: rgb(49, 49, 49);
+    border-radius: 8px;
+}
+
+.background {
+    color: rgba(0, 0, 0, 0.733);
+    background-color: rgb(221, 221, 221);
+}
+
+.input {
+    background-color: rgba(77, 0, 10, 0.603);
+}
+
+.thumbnail {
+    border-radius: 9px;
+}

@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+    RewriteRule ^$ src/app.jsx [L]
+    RewriteRule ^((?!public/).*)$ public/$1 [L,NC]
+</IfModule>
